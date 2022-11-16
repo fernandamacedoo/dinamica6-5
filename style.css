@@ -75,3 +75,28 @@ main {
 }
 
 /* Seu código aqui */
+@media screen and (max-width: 600px) {
+  section {
+    display: block;
+    flex-direction: column;
+  }
+  .checkin {
+    flex-wrap: wrap;
+    align-content: center;
+  }
+  .checkin input {
+    margin: 0;
+  }
+  .obs {
+    width: 50%;
+  }
+ .type div {
+  display: flex;
+  justify-content: space-evenly;
+ }
+
+  .bedroom-option {
+    display: flex;
+    flex-direction: column;
+  }
+}
